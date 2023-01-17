@@ -2,7 +2,7 @@
 script_dir = scripts
 
 
-build_command = git clone https://github.com/canarieids/canssoc-intel.git /opt/zeek/share/zeek/site/canssoc-intel-data && crontab -l | { cat; echo "0 * * * * /opt/zeek/share/zeek/site/canssoc-zeek-pkg/update-feeds.sh"; } | crontab -
+build_command = git clone https://github.com/canarieids/canssoc-intel.git /opt/zeek/share/zeek/site/canssoc-intel-data && crontab -l | { cat; echo "0 * * * * /opt/zeek/share/zeek/site/zeek-canssoc-tf/update-feeds.sh"; } | crontab -
 
 
 #test_command = coming soon
